@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 2</title>
+</head>
+<body>
+
+<form action="zad2.php" method="POST">
+    <label for="path">Path: </label>
+    <input type="text" id="path" name="path" required><br>
+
+    <label for="dirname">Name of directory: </label>
+    <input type="text" id="dirname" name="dirname" required><br>
+
+    <label for="operation">Choose an operation: </label>
+    <select id="operation" name="operation">
+        <option value="create">Create</option>
+        <option value="read">Read</option>
+        <option value="delete">Delete</option>
+    </select> <br>
+
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>

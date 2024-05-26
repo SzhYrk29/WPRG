@@ -1,0 +1,4 @@
+https://www.google.com/;google
+https://www.youtube.com/;youtube
+https://www.twitch.tv/;twitch
+https://mhyla.com/;mhyla

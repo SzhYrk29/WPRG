@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 3</title>
+</head>
+<body>
+
+<h1>Welcome to our page!</h1>
+<p>Number of visits: <span id="visitCount"></span> </p>
+
+<script>
+    fetch('zad3.php')
+    .then(response => response.text())
+    .then (data => {
+        document.getElementById('visitCount').innerText = data;
+    })
+    .catch(error => console.error('Error fetching visit count:', error));
+</script>
+
+</body>
+</html>
